@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+
+public class Solution {
+
+	public static ArrayList<ArrayList<Integer>> findTriplets(ArrayList<Integer> arr, int n) {
+		// Write your code here
+        ArrayList<ArrayList<Integer>> ans= new ArrayList<ArrayList<Integer>>();
+        ArrayList<Integer> stepSum=new ArrayList<Integer>();
+        //int k=2;
+        int size3flag=0;
+        //int j=1;
+        for(int i=0;i<n;i++){
+             for(int j=i+1;j<n;j++){
+               //int sum=arr[i]+arr[j]+arr[j+1];
+               for(int k=j+1;k<n;k++) { 
+               int sum=arr.get(i)+arr.get(j)+arr.get(k); 
+               System.out.println("Sum is :"+sum);
+                if(sum==0){
+                    stepSum.add(arr.get(i));
+                    stepSum.add(arr.get(j));
+                    stepSum.add(arr.get(k));
+                    ans.add(stepSum);
+                    size3flag=1;
+                    System.out.println("StepSum is :"+stepSum);
+                    System.out.println("Answer is :"+ans);
+                    //stepSum.clear();
+//                     stepSum.remove(i);
+//                     stepSum.remove(j);
+//                     stepSum.remove(k);                        
+                    //System.out.println("Step Sum is :"+stepSum);
+                }
+//                 if(size3flag==1){
+//                     ans.add(stepSum);
+//                     System.out.println("Step Sum is :"+stepSum);
+//                     size3flag=0;
+//                     //stepSum.clear();
+//                 }   
+               } //k loop// j=j+1;
+              
+            } 
+         }
+        //
+        //System.out.println("Step Sum is :"+ans); 
+//         if(ans.size()>0){
+          return ans;
+//         }else
+//         {
+//             return -1;
+//         } 
+	}
+    
+}
+ 
