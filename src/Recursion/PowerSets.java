@@ -24,5 +24,8 @@ public class PowerSets {
 
         solve(ip,op1);
         solve(ip,op2);
+        return;
+
+
     }
 }
