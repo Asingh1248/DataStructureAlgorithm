@@ -6,7 +6,7 @@ public class CountSubSetGivenSum {
         int arr [] = {2,3,5,6,8,10};
         int n = arr.length;
         int sum= 10;
-        //Chnage in Code : Intialization --> return type chnage and keep on adding the Ubset Sum
+        //Change in Code : Initialization --> return type chnage and keep on adding the Ubset Sum
 
         int ansCount= subSetCount(arr,n,sum);
         System.out.println("Number of Subset having equlas sum : "+ansCount);
@@ -29,7 +29,7 @@ public class CountSubSetGivenSum {
 
         for(int i=1;i<n+1;i++){
             for(int j=1;j<sum+1;j++){
-                if(arr[i-1]<=j)
+                if(arr[i-1]<=j)  // arr element <+sum
                     t[i][j]= t[i-1][j] + t[i-1][j-arr[i-1]];
                 else
                     t[i][j]=t[i-1][j];
