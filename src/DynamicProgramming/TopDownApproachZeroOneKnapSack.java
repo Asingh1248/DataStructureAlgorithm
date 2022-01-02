@@ -1,6 +1,6 @@
 package DynamicProgramming;
 
-public class BottomUpZeroOneKnapSack {
+public class TopDownApproachZeroOneKnapSack {
 
 
     public static void main(String[] args) {

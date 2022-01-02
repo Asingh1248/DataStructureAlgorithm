@@ -1,8 +1,6 @@
 package DynamicProgramming;
 
-import java.util.Arrays;
-
-public class ZeroOneKnapSack {
+public class MemoizedZeroOneKnapSack {
 
     public static int t[][] = new int[5][8];  //Memoziation matrix:n+1,w+1 //Given problem stmt
 
@@ -31,7 +29,7 @@ public class ZeroOneKnapSack {
             return 0;
         }
 
-        if(t[n][w] != -1)
+        if(t[n][w] != -1) // Already Evalualed
             return t[n][w]; // If not -1 store the result else do the recursion
 
 
