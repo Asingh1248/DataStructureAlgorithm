@@ -31,7 +31,7 @@ public class PrintLCS {
 
     }
 
-    private static String printingLCS(int[][] lcsAns, char[] a, char[] b, int m, int n) {
+    public static String printingLCS(int[][] lcsAns, char[] a, char[] b, int m, int n) {
         int i=m;
         int j=n;
         String ans ="";
@@ -57,7 +57,7 @@ public class PrintLCS {
 
     }
 
-    private static int[][] LCS(char[] a, char[] b, int m, int n) {
+    public static int[][] LCS(char[] a, char[] b, int m, int n) {
         int t[][] = new int[m+1][n+1];
 
         for(int i =0;i<m+1;i++){
