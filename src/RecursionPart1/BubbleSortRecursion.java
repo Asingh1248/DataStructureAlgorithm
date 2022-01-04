@@ -1,4 +1,4 @@
-package RecusrionPart1;
+package RecursionPart1;
 
 import java.util.Arrays;
 
