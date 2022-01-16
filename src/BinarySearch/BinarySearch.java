@@ -7,7 +7,7 @@ public class BinarySearch {
         int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int n = arr.length;
 
-        int key = 2;
+        int key = 85;
         int ans = binarySearchAns(arr, n,key);
         System.out.println(key + " is found at "+ans + " address in array");
     }
@@ -25,7 +25,7 @@ public class BinarySearch {
             else
                 start=mid+1;
         }
-        return mid;
+        return -1;
 
     }
 
