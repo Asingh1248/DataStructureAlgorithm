@@ -6,15 +6,15 @@ public class FirstOccurenceOfElement {
         int arr[] = {2,4,10,10,10,18,20};
         int n= arr.length;
         int key = 5;
-        int ans = firstOccurence(arr,n,key);
+        int start=0;
+        int end=n-1;
+        int ans = firstOccurence(arr,n,key,start,end);
         System.out.println(key  + " first occurrence in array is at: " +ans + " index") ;
 
     }
 
-    private static int firstOccurence(int[] arr, int n, int key) {
+    public static int firstOccurence(int[] arr, int n, int key,int start,int end) {
         int result=-1;
-        int start=0;
-        int end=n-1;
 
         while(start<=end){
            int mid=start+(end-start/2);
