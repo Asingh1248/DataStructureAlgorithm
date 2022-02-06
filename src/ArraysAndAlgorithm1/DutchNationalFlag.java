@@ -1,4 +1,4 @@
-package ArraysAndAlgorithms;
+package ArraysAndAlgorithm1;
 
 /*
 Problem Statement

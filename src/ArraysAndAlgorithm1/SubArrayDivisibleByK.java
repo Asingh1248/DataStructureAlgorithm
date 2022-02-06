@@ -1,4 +1,4 @@
-package ArraysAndAlgorithms;
+package ArraysAndAlgorithm1;
 
 /*
 *    Suppose the given array is ‘ARR’ = { 5, 0, 2, 3, 1} and ‘K = 5’.

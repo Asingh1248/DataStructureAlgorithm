@@ -1,9 +1,10 @@
-package ArraysAndAlgorithms;
+package ArraysAndAlgorithm1;
 
 public class CountSetBits {
     public static void main(String[] args) {
         int a = 13;
         int b = 4;
+
         System.out.print(FlippedCount(a, b));
     }
 
