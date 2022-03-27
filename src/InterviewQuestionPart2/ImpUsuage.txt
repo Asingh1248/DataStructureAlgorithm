@@ -1,0 +1,37 @@
+Used by Anagha to run multiple rules in parallel 4 rules at a time in DAL
+
+num_of_Parallel_runs-4
+
+Rest Call(Engine),Rest Call (Engine) ,
+
+
+ExecutorService = Exceuors.newWorkStealingPool();
+ExecutorCompletion ecs= new Ex(execuotrs
+
+Map<Integer,Integer> ruleIdExceptionCountMap = new ConcurrentMap<>(); //Why ?
+
+think of situation where we can parallism -- Go for ExecutorService .newfixThreadPoll()
+submit.
+
+
+try{
+  for(Integer ruleId:ruleIdSet){
+       ecs.submit(()->{
+
+           countForRule= retrieverMapR6.getRuleTotalCount(ruleID //Hitting theMapr DB and getting exception count :-- We can parllelism in there)
+            ruleIdExceptionCountMap.put(ruleId,countForRule);
+          return "COMPLETE"
+       })
+    }
+  }
+  catch(){
+  }
+  finally{
+    limiter.release();
+  }
+  return "FAILED";
+
+}
+while(count >0){
+   exc.take().get()
+}
