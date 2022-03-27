@@ -1,4 +1,4 @@
-package InterviewQauestionPart1;
+package InterviewQuestionPart1;
 
 //We want to add a condition - Task3 should execute only after Task1 terminates.
 public class MultiThreadingIPC {

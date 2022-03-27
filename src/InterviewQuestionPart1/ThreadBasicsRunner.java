@@ -1,32 +1,6 @@
-package InterviewQauestionPart1;
+package InterviewQuestionPart1;
 
 //extends Thread //implements Runnable
-
-class Task1 extends  Thread{
-    public void run() { //SIGNATURE
-        System.out.print("\n Task1 Started"); //This code started running parallel
-        //TASK 1
-        for (int i = 101; i <= 199; i++)
-            System.out.print(i + " ");
-
-        System.out.print("\n Task1 Done");
-    }
-
-}
-
-class Task2 implements Runnable {
-
-
-    @Override
-    public void run() {
-        System.out.print("\n Task2 Started  ");
-        //Task 2
-        for (int i = 201; i <= 299; i++)
-            System.out.print(i + " ");
-        System.out.print("\n Task2 Done ");
-    }
-}
-
 
 
 public class ThreadBasicsRunner {

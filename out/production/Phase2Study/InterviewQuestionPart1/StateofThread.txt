@@ -1,0 +1,15 @@
+NEW:
+For Task1 : After the execution of Task1 task1 = new Task1();
+For Task2 : After the execution of Task2 task2 = new Task2(); task2Thread = new Thread(task2);
+
+TERMINATED/DEAD
+When all the statements inside a thread's run() method have been been completed, that thread is said to have terminated.
+
+A thread can be in any one of the remaining three states, after its start() method has been invoked.
+RUNNING: If the thread is currently running.
+
+RUNNABLE: If the thread is not currently running, but is ready to do so at any time.
+
+BLOCKED/WAITING: If the thread is not currently running on the processor, but is not ready to execute either. This may be the case if it's waiting for an external resource (such as a user's input) or another thread.
+
+MIN_PRIORITY = 1 to MAX_PRIORITY = 10.

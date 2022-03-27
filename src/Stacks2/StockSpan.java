@@ -18,9 +18,9 @@ public class StockSpan {
         List<Integer> ans = new ArrayList<>();
         for(int i=0;i<n;i++){
             if(stk.isEmpty()){
-                ans.add(-1);
-                stk.push(new Pair(arr[i],i));
-//                System.out.println("In 1st condition stack is :"+stk);
+
+//                         ans.add(-1);
+//                stk.push(new Pair(arr[i],i)); System.out.println("In 1st condition stack is :"+stk);
             }
             else if (!stk.isEmpty() && arr[i]<stk.peek().getKey()){
                 ans.add(stk.peek().getValue());

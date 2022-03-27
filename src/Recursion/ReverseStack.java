@@ -1,2 +1,4 @@
-package Recursion;public class ReverseStack {
+package Recursion;
+
+public class ReverseStack {
 }

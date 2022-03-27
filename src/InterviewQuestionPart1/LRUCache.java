@@ -1,8 +1,7 @@
-package InterviewQauestionPart1;
+package InterviewQuestionPart1;
 
 import java.util.Deque;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LRUCache {

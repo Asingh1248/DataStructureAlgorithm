@@ -1,2 +1,4 @@
-package Recursion;public class PermutationWithCaseChange {
+package Recursion;
+
+public class PermutationWithCaseChange {
 }

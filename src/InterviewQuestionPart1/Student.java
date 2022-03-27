@@ -1,4 +1,4 @@
-package InterviewQauestionPart1;
+package InterviewQuestionPart1;
 
 //Imp Comparable<Student>
 public class Student implements Comparable<Student>{   //Imp

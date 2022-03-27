@@ -1,4 +1,4 @@
-package InterviewQauestionPart1;
+package InterviewQuestionPart1;
 
 //In 28 minutes
 public class NeedOfThread {

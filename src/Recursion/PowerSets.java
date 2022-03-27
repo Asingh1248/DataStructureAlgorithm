@@ -20,7 +20,7 @@ public class PowerSets {
         String op1= op;
         String op2=op;
         op2+=ip.charAt(0);
-        ip = ip.substring(1);
+        ip = ip.substring(1); // One se jo start hoga  frst k letter omitted
 
         solve(ip,op1);
         solve(ip,op2);
